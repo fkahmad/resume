@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farrukh's Contact Info</title>
+</head>
+<body>
+    <h1>Here's My contact details</h1>
+    <p>Email: <em>fkahmad@ualberta.ca</em></p>
+    <p>Cell: <em>587-590-5815</em></p>
+    <p>Address: <em>11140 80 Ave NW, AB. T6G 0R5</em></p>
+ <!-- action: what shud happen when you hit submit. Enctype is to encrypt your message properly
+   method: post, i.e. post to mail (which is action) -->
+    <form action="mailto:fkahmad@ualberta.ca" method="post" enctype="text/plain">
+        <label for="name">Enter your name:</label>
+        <input type="text" name="Yourname"><br>
+        <label for="text">Enter your email:</label> 
+        <input type="email" name="Youremail"><br>
+        <label for="message">Your message:</label><br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+
+    
+
+</body>
+</html>
